@@ -1,0 +1,19 @@
+{
+  "timeZone": "America/Mexico_City",
+  "dependencies": {
+  },
+  "webapp": {
+    "access": "MYSELF",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute"
+  ],
+  "gmail": {
+    "name": "Name your project",
+    "logoUrl": "https://www.example.com/hosted/images/2x/my-icon.png",
+    "primaryColor": "#4285F4",
+    "secondaryColor": "#4285F4"
+  }
+}
