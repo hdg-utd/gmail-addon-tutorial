@@ -1,0 +1,25 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+  },
+  "webapp": {
+    "access": "MYSELF",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.readonly"
+  ],
+  "gmail": {
+    "name": "Contextual Trigger Tutorial",
+    "logoUrl": "https://www.example.com/hosted/images/2x/my-icon.png",
+    "contextualTriggers": [{
+      "unconditional": {
+      },
+      "onTriggerFunction": "getContextualAddOn"
+    }],
+    "primaryColor": "#4285F4",
+    "secondaryColor": "#4285F4"
+  }
+}
