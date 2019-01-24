@@ -1,18 +1,31 @@
 /*
- * As we defined in the manifest, the method 'updateDraft' is the method that is triggered when the compose view is called.
+ * As we defined in the manifest, the method 'updateDraft' is 
+ * the method that is triggered when the compose view is called.
  *
- * In simple terms compose view is the view for the email draft editor. A compose trigger is only called when a compose view is called. The add on appears along with the edit fetaures in the draft editor. Look at the README for screenshot example.
+ * In simple terms compose view is the view for the email draft 
+ * editor. A compose trigger is only called when a compose view 
+ * is called. The add on appears along with the edit fetaures 
+ * in the draft editor. Look at the README for screenshot 
+ * example.
  *
- * Compose trigger takes into the context the email you are currently composing in Gmail.
+ * Compose trigger takes into the context the email you are 
+ * currently composing in Gmail.
  */
 
 /* 
- * In this method we get access to the current draft we are editing. In this project we are going to insert the string 'hello world' to the draft using the add on. In real world this add on could help you select which email signature to add to your email.
+ * In this method we get access to the current draft we are 
+ * editing. In this project we are going to insert the string 
+ * 'hello world' to the draft using the add on. In real world 
+ * this add on could help you select which email signature to 
+ * add to your email.
  */
 
 function updateDraft(event) {
-  // This is a passthorugh method to call the method that will create the card which does all the magic in this add on.
-  // Remember what we said in the basics, Cards is where all the magic happens in add ons.
+  /* This is a passthorugh method to call the method that will 
+   * create the card which does all the magic in this add on.
+   * Remember what we said in the basics, Cards is where all the 
+   * magic happens in add ons.
+   */
   return [buildButtonComposeCard()];
 }
 
