@@ -25,7 +25,9 @@ We need to add the files ourselves.
 You can refer to [0b. skeleton](https://github.com/hdg-utd/gmail-addon-tutorial/tree/master/0b.%20skeleton) 
 to read more about what goes into an Gmail Add on manifest. 
 Then add the contextualTrigger field to the manifest.
-4. Create the `Code.js` file and enter the Apps Script code.
+4. Create the `Code.js` file and enter the Apps Script code. 
+([contextual-addon/Code.js](https://github.com/hdg-utd/gmail-addon-tutorial/blob/master/1.%20contextual-addon/Code.js) 
+has comments explaining every section of code).
 5. Use `clasp push` to push the code to Google. (Make sure you have finished all steps of 
 [clasp setup](https://github.com/google/clasp) for this to work).
 6. Follow these steps from the `0a. basics` to deploy your project and test it in Gmail. 
