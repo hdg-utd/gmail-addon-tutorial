@@ -25,3 +25,14 @@ We need to add the files ourselves.
 You can refer to [0b. skeleton](https://github.com/hdg-utd/gmail-addon-tutorial/tree/master/0b.%20skeleton) 
 to read more about what goes into an Gmail Add on manifest. 
 Then add the contextualTrigger field to the manifest.
+4. Create the `Code.js` file and enter the Apps Script code.
+5. Use `clasp push` to push the code to Google. (Make sure you have finished all steps of 
+[clasp setup](https://github.com/google/clasp) for this to work).
+6. Follow these steps from the `0a. basics` to deploy your project and test it in Gmail. 
+
+## Concepts used in this project
+* Cards - [Google Docmentation](https://developers.google.com/gmail/add-ons/concepts/cards)
+| [My explanation]()
+* Widget - [Google Docmentation](https://developers.google.com/gmail/add-ons/concepts/widgets)
+| [My explanation]()
+* KeyVal - [Google Docmentation](https://developers.google.com/apps-script/reference/card-service/key-value)
