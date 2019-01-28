@@ -10,6 +10,15 @@ We are able to connect our Apps Script code with the open email using something 
   "onTriggerFunction": "getContextualAddOn"
 }],
 ```
+
+We also need to add this line to our `oauthScopes` in the manifest to get access 
+to the message.
+```
+oauthScopes: {
+  "https://www.googleapis.com/auth/gmail.addons.current.message.readonly"
+}
+```
+
 We add this functionality to our code by adding the lines above to your project manifest. 
 Replace `getContextualAddOn` with the name of the callback function you want to trigger, 
 
