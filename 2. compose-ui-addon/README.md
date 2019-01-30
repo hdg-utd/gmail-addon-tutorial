@@ -46,3 +46,5 @@ Then add the composeTigger field to the manifest.
 * Widget - [Google Docmentation](https://developers.google.com/gmail/add-ons/concepts/widgets)
 | [My explanation]()
 * UpdateDraftAction - [Google Documentation](https://developers.google.com/apps-script/reference/card-service/update-draft-action-response)
+
+* [Corresponding Google Tutorial](https://developers.google.com/gmail/add-ons/how-tos/extending-compose-ui)
