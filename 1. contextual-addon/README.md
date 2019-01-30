@@ -47,3 +47,6 @@ has comments explaining every section of code).
 * Widget - [Google Docmentation](https://developers.google.com/gmail/add-ons/concepts/widgets)
 | [My explanation]()
 * KeyVal - [Google Docmentation](https://developers.google.com/apps-script/reference/card-service/key-value)
+
+
+* [Corresponding Google Tutorial](https://developers.google.com/gmail/add-ons/how-tos/extending-message-ui)
